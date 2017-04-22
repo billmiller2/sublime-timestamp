@@ -1,0 +1,7 @@
+[
+{
+    "id" : "update_timestamp",
+    "caption" : "Update Timestamp",
+    "command" : "update_timestamp"
+}
+]
