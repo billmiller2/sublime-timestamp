@@ -10,6 +10,10 @@ class UpdateTimestampCommand(sublime_plugin.TextCommand):
             original = self.view.file_name()
             root, filename = os.path.split(original)
 
+            if not os.access(filename, os.W_OK):     
+                sublime.error_message(filename + " is read-only")
+                return
+
             if '_' in filename:
                 first = filename.split('_', 1)[0]
 
