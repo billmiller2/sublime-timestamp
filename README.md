@@ -1,4 +1,4 @@
-# Sublime File Timestamp
+# Sublime Timestamp Updator
 
 Sublime plugin to update filenames with a unix timestamp prefix.
 
