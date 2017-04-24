@@ -13,4 +13,9 @@ Intended to provide a convenient way to update CakePHP 2 migration filenames.
 2. Extract to `Packages` directory, which can by found through `Sublime Text -> Preferences -> Browse Packages...`
 3. Restart Sublime
 
+#### Usage
+Right click a file and select "Update Timestamp"
+<br>
+<br>
+
 Special thanks to Caius Worthen for inspiring this.
